@@ -17,5 +17,9 @@ body .filmList li {
   color: white;
   text-decoration: none;
 }
+body .filmList li:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
 
 /*# sourceMappingURL=main.css.map */
