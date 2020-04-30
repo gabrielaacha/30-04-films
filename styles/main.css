@@ -3,9 +3,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
   align-items: center;
-  align-content: center;
 }
 body .container {
+  display: flex;
+  align-self: center;
   border: 1px yellowgreen solid;
   width: 13rem;
 }
@@ -15,11 +16,6 @@ body .filmList {
 body .filmList li {
   color: white;
   text-decoration: none;
-}
-body .filmList li:hover {
-  background-color: pink;
-  text-decoration: none;
-  cursor: pointer;
 }
 
 /*# sourceMappingURL=main.css.map */
