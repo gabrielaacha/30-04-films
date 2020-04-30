@@ -1,0 +1,25 @@
+body {
+  background-color: blue;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+body .container {
+  border: 1px yellowgreen solid;
+  width: 13rem;
+}
+body .filmList {
+  list-style-type: none;
+}
+body .filmList li {
+  color: white;
+  text-decoration: none;
+}
+body .filmList li:hover {
+  background-color: pink;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=main.css.map */
