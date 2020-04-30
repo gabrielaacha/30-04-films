@@ -10,16 +10,19 @@ body .container {
   border: 1px yellowgreen solid;
   width: 13rem;
 }
-body .filmList {
+body .container .filmList {
   list-style-type: none;
 }
-body .filmList li {
+body .container .filmList li {
   color: white;
   text-decoration: none;
 }
-body .filmList li:hover {
+body .container .filmList li:hover {
   text-decoration: none;
   cursor: pointer;
+}
+body section .filmPosImg {
+  width: 20rem;
 }
 
 /*# sourceMappingURL=main.css.map */
