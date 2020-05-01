@@ -33,7 +33,7 @@ body .mainContainer .containerRight {
   justify-content: center;
 }
 body .mainContainer .containerRight .filmInfo {
-  border: 2px solid black;
+  border: 2px solid red;
   display: none;
   width: 60%;
   height: 80%;
