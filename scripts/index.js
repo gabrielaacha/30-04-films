@@ -26,7 +26,8 @@ ul.addEventListener("click", (e) => {
     film.style.display = "none";
   });
 
-  document.querySelector(`#${e.target.id}Info`).style.display = "block";
+  document.querySelector(`#${e.target.id}Info`).style.display = "flex";
+  document.querySelector(`#${e.target.id}Info`).style.flexDirection = "column";
   document.querySelector(`#${e.target.id}Info`).style.justifyContent = "center";
 });
 
