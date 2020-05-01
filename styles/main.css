@@ -5,6 +5,7 @@ body {
 body .mainContainer {
   border: 1px black solid;
   display: flex;
+  align-items: center;
 }
 body .mainContainer .containerLeft {
   display: flex;
