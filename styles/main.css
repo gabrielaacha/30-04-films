@@ -8,7 +8,7 @@ body .mainContainer {
 }
 body .mainContainer .containerLeft {
   display: flex;
-  align-items: center;
+  align-content: center;
   border: 1px yellowgreen solid;
   width: 30%;
   height: 80%;
