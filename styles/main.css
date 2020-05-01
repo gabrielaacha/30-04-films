@@ -3,6 +3,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 body .mainContainer {
+  border: 1px black solid;
   display: flex;
   flex-direction: initial;
   align-items: center;
@@ -26,9 +27,11 @@ body .mainContainer .containerLeft .filmList li:hover {
   cursor: pointer;
 }
 body .mainContainer .filmInfo {
+  border: 2px solid black;
   display: flex;
   margin: 3rem;
   justify-content: center;
+  width: 4rem;
 }
 body .mainContainer .filmInfo .filmPosImg {
   width: 15rem;
