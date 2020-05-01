@@ -1,28 +1,37 @@
 body {
   background-color: blue;
   font-family: Arial, Helvetica, sans-serif;
+}
+body .mainContainer {
   display: flex;
+  flex-direction: initial;
   align-items: center;
 }
-body .container {
-  display: flex;
+body .mainContainer .containerLeft {
+  display: f;
   align-self: center;
   border: 1px yellowgreen solid;
-  width: 13rem;
+  width: 20rem;
 }
-body .container .filmList {
+body .mainContainer .containerLeft .filmList {
   list-style-type: none;
+  margin: 2rem 2rem 2rem 0rem;
 }
-body .container .filmList li {
+body .mainContainer .containerLeft .filmList li {
   color: white;
   text-decoration: none;
 }
-body .container .filmList li:hover {
+body .mainContainer .containerLeft .filmList li:hover {
   text-decoration: none;
   cursor: pointer;
 }
-body section .filmPosImg {
-  width: 20rem;
+body .mainContainer .filmInfo {
+  display: flex;
+  margin: 3rem;
+  justify-content: center;
+}
+body .mainContainer .filmInfo .filmPosImg {
+  width: 15rem;
 }
 
 /*# sourceMappingURL=main.css.map */

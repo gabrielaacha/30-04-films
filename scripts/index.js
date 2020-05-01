@@ -1,3 +1,9 @@
+const ul = document.querySelector(".filmList");
+// const persona = document.querySelector("#persona");
+// const suspiria = document.querySelector("#suspiria");
+// const ul = document.querySelector(".filmList");
+// const ul = document.querySelector(".filmList");
+
 function pinkCol() {
   this.style.backgroundColor = "pink";
 }
@@ -8,7 +14,7 @@ function noCol() {
 
 function redCol() {
   this.style.backgroundColor = "red";
-  filmInfoHide.style.display = "none";
+  //   filmInfoHide.style.display = "none";
   //   filmInfoShow.style.display = "block";
 }
 
@@ -19,5 +25,19 @@ changeLi.forEach((li) => {
   li.addEventListener("click", redCol);
 });
 
-let filmInfoHide = document.querySelectorAll(".filmInfo");
+ul.addEventListener("click", (e) => {
+  [...document.querySelectorAll(".filmInfo")].map((film) => {
+    film.style.display = "none";
+  });
+
+  document.querySelector(`#${e.target.id}Info`).style.display = "block";
+});
+
+// let filmInfoHide = document.querySelector("#personaImg");
+// let filmInfoHide = document.querySelectorAll(".filmInfo");
+// filmInfoHide.forEach((sec) => {
+//   sec.addEventListener("click", redCol);
+// });
 // let filmInfoShow = document.getElementById("personaImg");
+
+// let filmInfoShow = document.querySelector("#personaInfo");
