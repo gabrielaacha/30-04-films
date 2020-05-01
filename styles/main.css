@@ -12,8 +12,7 @@ body .mainContainer .containerLeft {
   display: flex;
   align-self: center;
   border: 1px yellowgreen solid;
-  width: 250px;
-  height: 1000px;
+  width: 30%;
 }
 body .mainContainer .containerLeft .filmList {
   list-style-type: none;
@@ -27,11 +26,15 @@ body .mainContainer .containerLeft .filmList li:hover {
   text-decoration: none;
   cursor: pointer;
 }
-body .mainContainer .filmInfo {
+body .mainContainer .containerRight {
+  width: 70%;
+  background-color: green;
+}
+body .mainContainer .containerRight .filmInfo {
   border: 2px solid black;
   display: none;
 }
-body .mainContainer .filmInfo .filmPosImg {
+body .mainContainer .containerRight .filmInfo .filmPosImg {
   width: 10rem;
 }
 
