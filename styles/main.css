@@ -12,7 +12,8 @@ body .mainContainer .containerLeft {
   display: flex;
   align-self: center;
   border: 1px yellowgreen solid;
-  width: 20rem;
+  width: 250px;
+  height: 1000px;
 }
 body .mainContainer .containerLeft .filmList {
   list-style-type: none;
