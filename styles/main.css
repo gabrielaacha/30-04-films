@@ -10,9 +10,10 @@ body .mainContainer {
 }
 body .mainContainer .containerLeft {
   display: flex;
-  align-self: center;
+  align-items: center;
   border: 1px yellowgreen solid;
   width: 30%;
+  height: 100%;
 }
 body .mainContainer .containerLeft .filmList {
   list-style-type: none;
