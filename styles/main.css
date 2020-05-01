@@ -20,7 +20,6 @@ body .mainContainer .containerLeft .filmList {
 body .mainContainer .containerLeft .filmList li {
   color: white;
   text-decoration: none;
-  border-radius: 5%;
 }
 body .mainContainer .containerLeft .filmList li:hover {
   text-decoration: none;
