@@ -28,7 +28,7 @@ ul.addEventListener("click", (e) => {
 
   document.querySelector(`#${e.target.id}Info`).style.display = "flex";
   document.querySelector(`#${e.target.id}Info`).style.flexDirection = "column";
-  document.querySelector(`#${e.target.id}Info`).style.justifyContent = "center";
+  document.querySelector(`#${e.target.id}Info`).style.justifyContent = "right";
 });
 
 // let filmInfoHide = document.querySelector("#personaImg");
