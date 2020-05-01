@@ -1,8 +1,4 @@
 const ul = document.querySelector(".filmList");
-// const persona = document.querySelector("#persona");
-// const suspiria = document.querySelector("#suspiria");
-// const ul = document.querySelector(".filmList");
-// const ul = document.querySelector(".filmList");
 
 function pinkCol() {
   this.style.backgroundColor = "pink";
@@ -31,6 +27,7 @@ ul.addEventListener("click", (e) => {
   });
 
   document.querySelector(`#${e.target.id}Info`).style.display = "block";
+  document.querySelector(`#${e.target.id}Info`).style.justifyContent = "center";
 });
 
 // let filmInfoHide = document.querySelector("#personaImg");
@@ -39,5 +36,4 @@ ul.addEventListener("click", (e) => {
 //   sec.addEventListener("click", redCol);
 // });
 // let filmInfoShow = document.getElementById("personaImg");
-
 // let filmInfoShow = document.querySelector("#personaInfo");
