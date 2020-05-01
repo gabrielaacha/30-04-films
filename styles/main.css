@@ -31,7 +31,7 @@ body .mainContainer .filmInfo {
   display: flex;
   margin: 3rem;
   justify-content: center;
-  width: 4rem;
+  width: 10rem;
 }
 body .mainContainer .filmInfo .filmPosImg {
   width: 3rem;
