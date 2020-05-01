@@ -9,7 +9,7 @@ body .mainContainer {
   align-items: center;
 }
 body .mainContainer .containerLeft {
-  display: f;
+  display: flex;
   align-self: center;
   border: 1px yellowgreen solid;
   width: 20rem;
