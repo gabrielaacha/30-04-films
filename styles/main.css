@@ -36,6 +36,7 @@ body .mainContainer .containerRight .filmInfo {
   border: 2px solid black;
   display: none;
   width: 60%;
+  height: 80%;
   margin: 3rem;
 }
 body .mainContainer .containerRight .filmInfo .filmPosImg {
