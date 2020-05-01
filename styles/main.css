@@ -32,8 +32,9 @@ body .mainContainer .containerRight {
 }
 body .mainContainer .containerRight .filmInfo {
   border: 2px solid black;
-  background-color: hotpink;
   display: none;
+  width: 40%;
+  margin: 3rem;
 }
 body .mainContainer .containerRight .filmInfo .filmPosImg {
   width: 10rem;
