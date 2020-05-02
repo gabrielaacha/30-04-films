@@ -1,5 +1,13 @@
 const ul = document.querySelector(".filmList");
 
+function pinkBor() {
+  this.style.borderBottom = "1px pink solid";
+}
+
+function noBor() {
+  this.style.border = "transparent";
+}
+
 function pinkCol() {
   this.style.backgroundColor = "pink";
 }
@@ -8,17 +16,12 @@ function noCol() {
   this.style.backgroundColor = "transparent";
 }
 
-function redCol() {
-  this.style.backgroundColor = "red";
-  //   filmInfoHide.style.display = "none";
-  //   filmInfoShow.style.display = "block";
-}
-
 let changeLi = document.querySelectorAll(".filmPoster");
 changeLi.forEach((li) => {
-  li.addEventListener("mouseover", pinkCol);
-  li.addEventListener("mouseleave", noCol);
-  li.addEventListener("click", redCol);
+  li.addEventListener("mouseover", pinkBor);
+  li.addEventListener("mouseleave", noBor);
+  li.addEventListener("click", noCol);
+  li.addEventListener("click", pinkCol);
 });
 
 ul.addEventListener("click", (e) => {
@@ -26,15 +29,5 @@ ul.addEventListener("click", (e) => {
     film.style.display = "none";
   });
 
-  document.querySelector(`#${e.target.id}Info`).style.display = "flex";
-  document.querySelector(`#${e.target.id}Info`).style.flexDirection = "column";
-  document.querySelector(`#${e.target.id}Info`).style.justifyContent = "right";
+  document.querySelector(`#${e.target.id}Info`).style = "display:flex";
 });
-
-// let filmInfoHide = document.querySelector("#personaImg");
-// let filmInfoHide = document.querySelectorAll(".filmInfo");
-// filmInfoHide.forEach((sec) => {
-//   sec.addEventListener("click", redCol);
-// });
-// let filmInfoShow = document.getElementById("personaImg");
-// let filmInfoShow = document.querySelector("#personaInfo");

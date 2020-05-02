@@ -12,9 +12,9 @@ body .mainContainer {
 body .mainContainer .containerLeft {
   display: flex;
   align-items: center;
-  border: 1px yellowgreen solid;
+  background-color: darkblue;
   width: 30%;
-  height: 30%;
+  height: 60%;
 }
 body .mainContainer .containerLeft .filmList {
   list-style-type: none;
@@ -27,21 +27,30 @@ body .mainContainer .containerLeft .filmList li {
 body .mainContainer .containerLeft .filmList li:hover {
   text-decoration: none;
   cursor: pointer;
+  width: 20vw;
 }
-body .mainContainer .containerRight {
-  width: 70%;
+body .mainContainer .containerLeft .filmList li:before {
+  background-color: green;
 }
-body .mainContainer .containerRight .filmInfo {
-  display: flex;
-  justify-content: center;
-  border: 2px solid red;
+body .mainContainer .containerLeft .filmList li:after {
+  text-decoration: none;
+  cursor: pointer;
+  width: 20vw;
+}
+body .mainContainer .filmInfo {
   display: none;
-  width: 60%;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  width: 70%;
   height: 80%;
-  margin: 3rem;
 }
-body .mainContainer .containerRight .filmInfo .filmPosImg {
+body .mainContainer .filmInfo .filmPosImg {
   width: 10rem;
+}
+body .mainContainer .filmInfo p {
+  width: 350px;
 }
 
 /*# sourceMappingURL=main.css.map */
