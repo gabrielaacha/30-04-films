@@ -1,3 +1,16 @@
+//DOM element
+const filmList = document.querySelector(".filmList");
+
+const newUl = [
+  "Persona",
+  "Suspiria",
+  "Groundhog's Day",
+  "Alien",
+  "Meaning of Life",
+].reduce((acc, a) => acc + `<li class="filmPoster" id="${a}">${a}</li>`, "");
+
+filmList.innerHTML = newUl;
+
 const ul = document.querySelector(".filmList");
 
 function pinkCol() {
@@ -10,8 +23,6 @@ function noCol() {
 
 function redCol() {
   this.style.backgroundColor = "red";
-  //   filmInfoHide.style.display = "none";
-  //   filmInfoShow.style.display = "block";
 }
 
 let changeLi = document.querySelectorAll(".filmPoster");
@@ -27,13 +38,4 @@ ul.addEventListener("click", (e) => {
   });
 
   document.querySelector(`#${e.target.id}Info`).style = "display:flex";
-  // flex-direction: column; text-align: center; align-items: center";
 });
-
-// let filmInfoHide = document.querySelector("#personaImg");
-// let filmInfoHide = document.querySelectorAll(".filmInfo");
-// filmInfoHide.forEach((sec) => {
-//   sec.addEventListener("click", redCol);
-// });
-// let filmInfoShow = document.getElementById("personaImg");
-// let filmInfoShow = document.querySelector("#personaInfo");

@@ -34,22 +34,26 @@ body {
         cursor: pointer;
       }
     }
-    .containerRight {
+    // .containerRight {
+    //   background-color: green;
+
+    .filmInfo {
+      // border: 2px solid red;
+      display: none;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
       width: 70%;
-      //   background-color: green;
+      height: 80%;
+      //   margin: 0 8rem;
 
-      .filmInfo {
-        display: flex;
-        justify-content: center;
-        border: 2px solid red;
-        display: none;
-        width: 60%;
-        height: 80%;
-        margin: 3rem;
+      .filmPosImg {
+        width: 10rem;
+      }
 
-        .filmPosImg {
-          width: 10rem;
-        }
+      p {
+        width: 350px;
       }
     }
   }
