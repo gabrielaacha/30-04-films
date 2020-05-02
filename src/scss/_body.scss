@@ -1,27 +1,56 @@
 body {
   background-color: blue;
   font-family: Arial, Helvetica, sans-serif;
-  display: flex;
-  align-items: center;
-  align-content: center;
 
-  .container {
-    border: 1px yellowgreen solid;
-    width: 13rem;
-  }
+  .mainContainer {
+    border: 1px black solid;
+    display: flex;
+    // flex-direction: initial;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
 
-  .filmList {
-    list-style-type: none;
-  }
+    .containerLeft {
+      display: flex;
+      align-items: center;
+      //   position: absolute;
+      border: 1px yellowgreen solid;
+      width: 30%;
+      height: 30%;
 
-  .filmList li {
-    color: white;
-    text-decoration: none;
-  }
+      .filmList {
+        list-style-type: none;
+        margin: 2rem 2rem 2rem 0rem;
+      }
 
-  .filmList li:hover {
-    background-color: pink;
-    text-decoration: none;
-    cursor: pointer;
+      .filmList li {
+        color: white;
+        text-decoration: none;
+      }
+
+      .filmList li:hover {
+        //   background-color: pink;
+        text-decoration: none;
+        cursor: pointer;
+      }
+    }
+    .containerRight {
+      width: 70%;
+      //   background-color: green;
+
+      .filmInfo {
+        display: flex;
+        justify-content: center;
+        border: 2px solid red;
+        display: none;
+        width: 60%;
+        height: 80%;
+        margin: 3rem;
+
+        .filmPosImg {
+          width: 10rem;
+        }
+      }
+    }
   }
 }
