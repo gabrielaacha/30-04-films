@@ -1,15 +1,15 @@
 //DOM element
-const filmList = document.querySelector(".filmList");
+// const filmList = document.querySelector(".filmList");
 
-const newUl = [
-  "Persona",
-  "Suspiria",
-  "Groundhog's Day",
-  "Alien",
-  "Meaning of Life",
-].reduce((acc, a) => acc + `<li class="filmPoster" id="${a}">${a}</li>`, "");
+// const newUl = [
+//   "Persona",
+//   "Suspiria",
+//   "Groundhog's Day",
+//   "Alien",
+//   "Meaning of Life",
+// ].reduce((acc, a) => acc + `<li class="filmPoster" id="${a}">${a}</li>`, "");
 
-filmList.innerHTML = newUl;
+// filmList.innerHTML = newUl;
 
 const ul = document.querySelector(".filmList");
 
