@@ -3,9 +3,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 
   .mainContainer {
-    border: 1px black solid;
+    // border: 1px black solid;
     display: flex;
-    // flex-direction: initial;
     align-items: center;
     width: 100vw;
     height: 100vh;
@@ -34,15 +33,12 @@ body {
         width: 20vw;
       }
 
-      .filmList li:before {
-        background-color: green;
-      }
+      // .filmList li:before {
+      // }
 
-      .filmList li:after {
-        text-decoration: none;
-        cursor: pointer;
-        width: 20vw;
-      }
+      // .filmList li:after {
+
+      // }
     }
     // .containerRight {
     //   background-color: green;
@@ -56,7 +52,6 @@ body {
       align-items: center;
       width: 70%;
       height: 80%;
-      //   margin: 0 8rem;
 
       .filmPosImg {
         width: 10rem;
