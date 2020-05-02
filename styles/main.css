@@ -30,7 +30,6 @@ body .mainContainer .containerLeft .filmList li:hover {
 }
 body .mainContainer .containerRight {
   width: 70%;
-  background-color: green;
 }
 body .mainContainer .containerRight .filmInfo {
   display: flex;
