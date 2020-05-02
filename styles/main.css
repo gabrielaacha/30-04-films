@@ -3,7 +3,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 body .mainContainer {
-  border: 1px black solid;
   display: flex;
   align-items: center;
   width: 100vw;
@@ -25,14 +24,6 @@ body .mainContainer .containerLeft .filmList li {
   text-decoration: none;
 }
 body .mainContainer .containerLeft .filmList li:hover {
-  text-decoration: none;
-  cursor: pointer;
-  width: 20vw;
-}
-body .mainContainer .containerLeft .filmList li:before {
-  background-color: green;
-}
-body .mainContainer .containerLeft .filmList li:after {
   text-decoration: none;
   cursor: pointer;
   width: 20vw;
