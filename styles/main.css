@@ -12,6 +12,7 @@ body .mainContainer {
 body .mainContainer .containerLeft {
   display: flex;
   align-content: center;
+  position: fixed;
   border: 1px yellowgreen solid;
   width: 30%;
   height: 80%;
